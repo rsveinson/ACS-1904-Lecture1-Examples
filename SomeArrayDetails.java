@@ -11,6 +11,7 @@ public class SomeArrayDetails{
         Scanner scanner = new Scanner(System.in);
         
         int[] list = new int[10];
+        
         Random r = new Random();
         int randomNumber;
         int count;          // index and counter for the array

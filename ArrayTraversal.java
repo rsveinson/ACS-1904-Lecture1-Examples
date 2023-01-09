@@ -26,7 +26,7 @@ public class ArrayTraversal{
             n = scanner.nextInt();
         }//end while
         
-        // now travers the array, only the used portion
+        // now traverse the array, only the used portion
         for(int i = 0; i < count; i++){
             // do some computation
             // could be adding, counting, squaring,....

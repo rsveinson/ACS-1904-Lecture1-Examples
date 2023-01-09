@@ -13,8 +13,11 @@ public class ArrayExperiments{
         double[] d = new double[5];
         boolean[] b = new boolean[5];
         System.out.println(b[0]);
+        System.out.println(b);
         
-        //s[10] = "oops";
+        s[9] = "oops";
+        System.out.println(s[0]);
+        System.out.println(s[9]);
         
 
 
