@@ -6,7 +6,7 @@ import java.util.Scanner;
  * using static methods with arrays
 */
 
-public class ArraysAndStaticMethods{
+public class ArraysAndStaticMethodsBefore{
     public static void main(String[] args) {
         final int MAX = 10;
         
@@ -34,26 +34,23 @@ public class ArraysAndStaticMethods{
 
         // print the list 
         System.out.println(list);
-        printList(list, count);
+        for(int i = 0; i < count; i++){
+            System.out.println(list[i]);
+        }//end for
         
         // change an element using a static method
-        changeTheList(list);
+        for(int i = 0; i < count; i++){
+            list[i] = list[i] + 100;
+        }//end for
         
         // print the list witht he change
-        printList(list, count);
+        System.out.println(list);
+        for(int i = 0; i < count; i++){
+            System.out.println(list[i]);
+        }//end for
         
         System.out.println("end of program");
     }// end main
     
-    // *** static methods ***
-    public static void printList(int[] l, int c){
-        for(int i = 0; i < c; i++){
-            System.out.println(l[i]);
-        }//end for
-    }// end print list
     
-    public static void changeTheList(int[] l){
-        System.out.println(l);
-        l[0] = 7896456;
-    }// end change the list
-}
+}// end class
