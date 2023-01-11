@@ -3,7 +3,7 @@ import java.util.Scanner;
  * ACS-1904 Assignment X Question Y
  * @Sveinson
  * 
- * using static methods with arrays
+ * using static methods with arrays  
 */
 
 public class ArraysAndStaticMethodsAfter{
