@@ -60,6 +60,8 @@ public class ArraysAndStaticMethodsAfter{
         for(int i = 0; i < c; i++){
             l[i] = l[i] + 100;
                               
+        }//end for
+        
         /* as an experiment i'm going to change the reference variable l
          * to see if it changes the value in the reference variable list
          * found in main
@@ -68,7 +70,6 @@ public class ArraysAndStaticMethodsAfter{
             System.out.println(otherList);
             l = otherList;
             System.out.println(l);
-        }//end for
     }// end change the list
     
     

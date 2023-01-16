@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class SortAndSearch
 {
     public static void main(String[] args){
-        String[] name = {"Joe","Linda","Mary","Peter","Lee","Patricia"};
+        String[] name = {"Joe","Linda","Mary","Peter","Lee","Patricia", "Jason"};
         
         Arrays.sort(name);
         
@@ -21,6 +21,6 @@ public class SortAndSearch
         if (foundAt >= 0)
             System.out.println("Found in position "+foundAt);
         else 
-            System.out.println("Not Found ");
+            System.out.println("Not Found " + foundAt);
     }
 }
