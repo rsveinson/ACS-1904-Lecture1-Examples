@@ -7,6 +7,8 @@
  */
 public class Arrays{
     public static void main(String[] args){
+        final int MAX = 50;
+        int[] list = new int[MAX];
         
         
     }
