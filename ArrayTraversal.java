@@ -31,8 +31,11 @@ public class ArrayTraversal{
             // do some computation
             // could be adding, counting, squaring,....
             
+            // print the list
+            System.out.println(i + ". " + list[i]);
+            
             //how can we get the numbering to start at 1?
-            System.out.println((i + 1) + ". " + list[i]);
+            //System.out.println((i + 1) + ". " + list[i]);
         }// end for
 
 
