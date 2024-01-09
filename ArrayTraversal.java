@@ -15,12 +15,13 @@ public class ArrayTraversal{
         int[] list = new int[MAXLENGTH];
         
         // only fill part of the array
+        count = 0;
         System.out.println("enter numbers 0 to end");
         n = scanner.nextInt();
         
         while(n != 0){
-            list[count] = n;
-            count++;
+            list[count++] = n;
+            //count++;
             
             // update the control variable
             n = scanner.nextInt();
@@ -32,10 +33,10 @@ public class ArrayTraversal{
             // could be adding, counting, squaring,....
             
             // print the list
-            System.out.println(i + ". " + list[i]);
+            //System.out.println(i + ". " + list[i]);
             
             //how can we get the numbering to start at 1?
-            //System.out.println((i + 1) + ". " + list[i]);
+            System.out.println((i + 1) + ". " + list[i]);
         }// end for
 
 
