@@ -9,7 +9,7 @@ public class MonthLengths
         // get the length
         System.out.println(daysInMonth.length);
         
-        //daysInMonth.length = 14;
+        daysInMonth.length = 14;
         System.out.println(daysInMonth);
         System.out.println("Days for each of " + daysInMonth.length + " months ");
         
