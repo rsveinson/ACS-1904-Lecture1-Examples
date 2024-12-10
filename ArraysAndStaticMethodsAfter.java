@@ -33,7 +33,7 @@ public class ArraysAndStaticMethodsAfter{
         }// end load array loop
 
         // print the list 
-        System.out.println(list);
+        System.out.println("List address in main: " + list);
         printList(list, count);
         
         // change an element using a static method
