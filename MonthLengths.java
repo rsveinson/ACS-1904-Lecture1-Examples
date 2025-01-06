@@ -15,7 +15,22 @@ public class MonthLengths
         
         System.out.println("month 3 has : " + daysInMonth[2] + " days.");
         
+        daysInMonth[10] = (int)29.5;
+        daysInMonth[10] += 5;
+        System.out.println("Nov " + daysInMonth[2]);
+        
+        int x[] = new int[12];
+        x[0] = 3;
+        
         for (int i = 0; i< daysInMonth.length; i++)
             System.out.print(daysInMonth[i]+"  ");
+           
+        System.out.println("\n\n");
+        
+        for (int i = 0; i< daysInMonth.length; i++){
+            if(daysInMonth[i] == 31){
+               System.out.println("Month " + (i + 1) + " has " + daysInMonth[i]+"  "); 
+            }
+        }// end for i
     }// end main
 }// end class
