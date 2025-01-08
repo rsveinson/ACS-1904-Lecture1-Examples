@@ -24,7 +24,7 @@ public class SomeArrayDetails{
          * 
          * what can we add here so that this problem
          * is addressed?
-         */ 
+          
         while(randomNumber != 0){
             // add the random number to the array at index i
             // increment i so the next number will be added
@@ -32,16 +32,16 @@ public class SomeArrayDetails{
             list[count++] = randomNumber;
             randomNumber = r.nextInt(11);
         }// end while
-        
-        /* fix the out of bounds problem
-        while(randomNumber != 0 & count < 10){
+        */
+        /* fix the out of bounds problem*/
+        while(randomNumber != 0 && count < 10){
             // add the random number to the array at index i
             // increment i so the next number will be added
             // at index i then increment i
             list[count++] = randomNumber;
             randomNumber = r.nextInt(11);
         }// end while
-        */
+        
         
         // print the array
         for(int n : list){
